@@ -1,4 +1,6 @@
 TA-Lib
-flask
 pandas
 yfinance
+bokeh
+numpy
+streamlit
