@@ -27,6 +27,7 @@ def buySignal(df):
         print("c:"+str(df.iloc[-2]['c'])+" bb_l:"+str(df.iloc[-2]['bb_lower']))       
 
 #getting hist. data up to now
+#api : bybit
 session = HTTP("https://api-testnet.bybit.com",
                spot=True)
 df = pd.DataFrame(session.query_kline(
